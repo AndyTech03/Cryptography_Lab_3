@@ -1,6 +1,6 @@
 ﻿namespace Cryptography_Lab_3
 {
-	partial class Form1
+	partial class MainForm
 	{
 		/// <summary>
 		/// Обязательная переменная конструктора.
@@ -72,7 +72,7 @@
 			this.DecodeB.UseVisualStyleBackColor = true;
 			this.DecodeB.Click += new System.EventHandler(this.DecodeB_Click);
 			// 
-			// Form1
+			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -81,8 +81,10 @@
 			this.Controls.Add(this.EncodeB);
 			this.Controls.Add(this.EncodedMessageRTB);
 			this.Controls.Add(this.MessageRTB);
-			this.Name = "Form1";
-			this.Text = "Form1";
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+			this.Name = "MainForm";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+			this.Text = "Криптография";
 			this.ResumeLayout(false);
 
 		}
